@@ -1,5 +1,7 @@
 # LinkFlow
 
+[简体中文](#linkflow) | [English](#english)
+
 LinkFlow 官方 iOS 安装包与版本发布页。
 
 ## 下载
@@ -31,3 +33,39 @@ Get-FileHash .\LinkFlow_2.0.4.ipa -Algorithm SHA256
 
 - [官方网站](https://linkflow.zhosix.com/)
 - [隐私政策](https://linkflow.zhosix.com/privacy)
+
+---
+
+## English
+
+Official iOS downloads and releases for LinkFlow.
+
+### Download
+
+Download the latest version from this repository's [Releases](https://github.com/zhosix/linkflow/releases) and verify its SHA-256 checksum against the one provided on the release page.
+
+Current version: **2.0.4 (build 20260907)**  
+Requires: **iOS 17 or later**
+
+LinkFlow is distributed as an unsigned IPA. Sign and install it using certificates and provisioning profiles you lawfully hold, or a trusted installation method. Do not download installation packages from unofficial sources or share your certificates, passwords, tokens, or pairing data with others.
+
+### Verify your download
+
+macOS:
+
+```bash
+shasum -a 256 LinkFlow_2.0.4.ipa
+```
+
+Windows PowerShell:
+
+```powershell
+Get-FileHash .\LinkFlow_2.0.4.ipa -Algorithm SHA256
+```
+
+The checksum must exactly match the value in the release's `SHA256SUMS` file.
+
+### Support
+
+- [Official website](https://linkflow.zhosix.com/)
+- [Privacy policy](https://linkflow.zhosix.com/privacy)
